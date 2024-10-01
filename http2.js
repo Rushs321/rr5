@@ -52,5 +52,5 @@ if (cluster.isMaster) {
         }
     };
 
-    spdy.createServer(options, app).listen(PORT, () => console.log(`Listening on ${PORT}`));
+    spdy.createServer(options, app).listen({host: '0.0.0.0', port: PORT });
 }
