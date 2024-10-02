@@ -1,6 +1,5 @@
 #!/usr/bin/env node
 'use strict';
-const app = require('express')();
 const processRequest = require('./src/proxy.js'); // Import the named export
 const PORT = process.env.PORT || 8080;
 const keyPath = './cert/privkey.pem';
