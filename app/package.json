@@ -1,0 +1,22 @@
+{
+  "name": "myapp",
+  "version": "2.0",
+  "description": "an app",
+  "author": "Team1",
+  "license": "AGPL-3.0-only",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "4.21.0",
+    "fastify": "4.28.1",
+    "lodash": "4.17.21",
+    "sharp": "0.33.5",
+    "undici": "6.19.8",
+    "spdy": "^4.0.2"
+  },
+  "engines": {
+    "node": "20.16.0"
+    
+  }
+}
