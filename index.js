@@ -7,6 +7,7 @@ const certPath = './cert/fullchain.pem';
 const fastify = require('fastify')({
   http2: true,
   https: {
+    allowHTTP1: true,
     key: fs.readFileSync(keyPath),
     cert: fs.readFileSync(certPath)
   }
